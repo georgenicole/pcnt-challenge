@@ -4,8 +4,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav>
-      <Logo />
+    <nav className="header">
+      <Logo className="header__logo" />
     </nav>
   );
 };
