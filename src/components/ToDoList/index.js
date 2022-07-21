@@ -1,11 +1,21 @@
 import React from "react";
+import Item from "../Item";
 import "./styles.css";
 
-const ToDoList = () => {
+const ToDoList = ({ data }) => {
   return (
-    <ul className="Container-ToDoList">
+    <div className="Container-ToDoList">
       <p className="title-ToDoList ">To do List</p>
-    </ul>
+      <ul className="list">
+        {data.map((value) => (
+          <Item
+            checked={value.checked}
+            onChange={() => {}}
+            title={value.title}
+          />
+        ))}
+      </ul>
+    </div>
   );
 };
 

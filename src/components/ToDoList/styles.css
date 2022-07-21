@@ -18,3 +18,7 @@
   font-size: 18px;
   line-height: 20.7px;
 }
+.list {
+  padding: "2px";
+  list-style: "none";
+}
