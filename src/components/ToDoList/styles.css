@@ -19,6 +19,11 @@
   line-height: 20.7px;
 }
 .list {
-  padding: "2px";
-  list-style: "none";
+  list-style: none;
+}
+.btn-plus {
+  position: "absolute";
+  margin-left: 115px;
+  margin-top: 19.67px;
+  cursor: pointer;
 }
