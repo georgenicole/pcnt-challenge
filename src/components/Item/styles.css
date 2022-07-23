@@ -1,9 +1,17 @@
-.item {
-  margin-top: 64px;
-  margin-left: 57px;
+.item{
+    position: absolute;
+    margin-top: 4px;
 }
 .title-span{
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
+    margin-top: 64px;
+}
+input[type="checkbox"]{
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
 }
