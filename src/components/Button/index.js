@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.css";
 
-const Button = () => {
+const Button = ({disable, className, onClick, title, tenant="primary"}) => {
   return (
-    <div style={{ marginTop: 180, padding: 0 }}>
-      <button className="btn-add">Agregar</button>
-    </div>
+    <button className={`btn ${tenant} ${className & className}`} disabled={disable} onClick={onClick}>
+      {title}
+    </button>
   );
 };
 

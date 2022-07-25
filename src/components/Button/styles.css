@@ -1,11 +1,23 @@
-.btn-add{
-position: absolute;
-Width: 315px;
-Height: 48px;
-border-radius: 50px;
-margin-left: 30px;
-margin-right: 30px;
-color: aliceblue;
-background: #000000;
-cursor: pointer;
-}
+.btn {
+    width: auto;
+    min-width: 129px;
+    height: 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    border-width: 0px;
+    -webkit-box-shadow: 0px 10px 24px -10px #000000;
+    box-shadow: 0px 10px 24px -10px #000000;
+  }
+  
+  .primary {
+    color: var(--secondary);
+    background-color: var(--primary);
+  }
+  .secondary {
+    color: var(--primary);
+    background-color: var(--secondary);
+  }
+  button:disabled {
+    color: var(--primary);
+    background-color: var(--secondary);
+  }
