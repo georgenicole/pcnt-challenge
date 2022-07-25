@@ -3,7 +3,7 @@ import "./styles.css"
 
 const Subtitle = () => {
   return (
-    <h5 className='subtitle-todoList'>¿Qué cosas tenés que terminar hoy?</h5>
+    <p className='subtitle-todoList'>¿Qué cosas tenés que terminar hoy?</p>
   )
 }
 

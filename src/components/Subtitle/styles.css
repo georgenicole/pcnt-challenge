@@ -1,3 +1,4 @@
-.subtitle-todoList{
-    margin-left: 33px;
-}
+.subtitle-todoList {
+    color: var(--primary);
+    font-family: Helvetica, Arial, sans-serif;
+  }
