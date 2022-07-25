@@ -1,17 +1,27 @@
-.item{
-    position: absolute;
-    margin-top: 4px;
-}
-.title-span{
+.item {
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .item.checked{
+    color: lightgrey;
+  }
+  .title-todo {
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
-    margin-top: 64px;
-}
-input[type="checkbox"]{
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-}
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 12px;
+  }
+  .img-check {
+    width: 20px;
+    height: 20px;
+  }
+  /* input[type="checkbox"]{
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+  } */
