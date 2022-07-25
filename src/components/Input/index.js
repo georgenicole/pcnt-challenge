@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import { useState } from "react";
 
-const Input = () => {
+const Input = ({name}) => {
   const [value, setValue] = useState("");
   const handleChange = (el) => {
     setValue(el.target.value);
@@ -11,6 +11,7 @@ const Input = () => {
   return (
     <input
       placeholder="Escribí un item"
+      name={name}
       value={value}
       onChange={handleChange}
       className='item-Input'
